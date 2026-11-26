@@ -77,8 +77,7 @@
 	export OF_CLOCK_POS=1
 
 	# Flashlight
-	export OF_FL_PATH1="/sys/class/leds/led:torch_0"
-	export OF_FL_PATH2="/sys/class/leds/led:switch_0"
+	export OF_FL_PATH1="/tmp/torch"
 
 	# Magisk
 	export FOX_USE_SPECIFIC_MAGISK_ZIP="~/Magisk/Magisk-v31.1.zip"
